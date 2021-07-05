@@ -1,4 +1,4 @@
-# projeto-calculadora-tranparente
+# projeto-calculadora-transparente
 
  > ## 💻 Projeto
  Esse projeto é uma calculadora simples com animação. Nela você pode fazer as quatro principais operações matemáticas.
