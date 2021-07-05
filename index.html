@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Calculator1.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="display" id="display"></div>
+        <div class="calculator-buttons">
+            <button id="limparDisplay">CE</button>
+            <button id="limparCalculo">C</button>
+            <button id="backspace">&#9003;</button>
+            <button id="operadorDividir">/</button>
+            <button id="tecla7">7</button>
+            <button id="tecla8">8</button>
+            <button id="tecla9">9</button>
+            <button id="operadorMultiplicar">*</button>
+            <button id="tecla4">4</button>
+            <button id="tecla5">5</button>
+            <button id="tecla6">6</button>
+            <button id="operadorSubtrair">-</button>
+            <button id="tecla1">1</button>
+            <button id="tecla2">2</button>
+            <button id="tecla3">3</button>
+            <button id="operadorAdicionar">+</button>
+            <button id="inverter">±</button>
+            <button id="tecla0">0</button>
+            <button id="decimal">,</button>
+            <button id="igual">=</button>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".calculadora"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 0.2   
+            });
+    </script>
+</body>
+</html>
